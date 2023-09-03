@@ -123,7 +123,7 @@ const renderTimetableV = () => {
           <tr>
             <th>Prayer</th>
             <th>Adhan</th>
-            {/* <th>Iqama</th> */}
+            
           </tr>
         </thead>
 
@@ -131,8 +131,8 @@ const renderTimetableV = () => {
           {Object.keys(adhanTimes).map((adhan) => (
             <tr key={adhan}>
               <th>{adhan}</th>
+            
               <td>{adhanTimes[adhan]}</td>
-              {/* <td>{iqamaTimes[adhan]}</td> Display corresponding Iqama time */}
             </tr>
           ))}
         </tbody>

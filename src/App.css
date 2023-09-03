@@ -29,10 +29,14 @@ h3 {
 
 .accent {
   text-decoration: none;
-  font-weight: bolder;
+  font-weight: bold;
   color: var(--accent);
+  transition: all 0.5s ease; /* Add a smooth color transition */
+}
 
+.accent:hover {
+  color: rgb(224, 113, 61);
+  text-shadow: 5px 5px 10px var(--secondary);
 }
-.accent:visited {
-  color: var(--accent);
-}
+
+
