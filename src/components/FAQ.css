@@ -1,0 +1,21 @@
+/* FAQ*/
+
+.faq-section h4 {
+    padding: 15px 0 5px;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+
+}
+
+.faq-section p {
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 760px) {
+    .faq-section {
+        scroll-margin: 100px;
+    }
+}
+
+/* END */

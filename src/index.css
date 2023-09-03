@@ -1,0 +1,27 @@
+:root {
+  --primary: whitesmoke;
+  --secondary:rgb(170, 168, 130);
+  --accent:  #7C512B;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  font-family: "poppins", monospace, "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue";
+}

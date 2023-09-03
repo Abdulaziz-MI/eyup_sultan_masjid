@@ -1,0 +1,87 @@
+.hero-full {
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+    gap: 50px;
+}
+
+.hero-title {
+    font-size: clamp(1.8rem, 5vw + 0.1rem, 4rem);
+    font-weight: 800;
+    text-align: center;
+    color: var(--primary);
+    text-shadow: 1px 1px 10px #000000;
+    -webkit-background-clip: text;
+    margin: 0 0 10px 0;
+}
+
+
+/* PRAYER TIMETABLE SECTION */
+.timetable-container {
+    justify-content: center;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 50%;
+    height: 20px;
+    border-radius: 13px;
+    background-color: var(--primary);
+}
+
+td,
+th {
+    padding: 10px;
+    font-size: clamp(1.2rem, 2vw + 0.1rem, 4rem);
+    text-align: center;
+    
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+    background-color: #ddd;
+
+}
+
+
+@media only screen and (max-width: 760px) {
+    .hero-title {
+        padding: 10px 20px;
+        font-size: clamp(1.5rem, 6vw + 0.1rem, 3rem);
+    }
+
+    .content-container {
+
+        gap: 20px;
+    }
+
+    .timetable-container {
+        width: 80%;
+    }
+
+    td,
+    th {
+        padding: 5px;
+        font-size: clamp(1.1rem, 3vw + 0.1rem, 3rem);
+        text-align: center;
+        
+    }
+}
