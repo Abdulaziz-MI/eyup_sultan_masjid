@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/eyup_sultan_masjid/static/css/main.332d3d44.css",
-    "main.js": "/eyup_sultan_masjid/static/js/main.23f9f620.js",
+    "main.css": "/eyup_sultan_masjid/static/css/main.697bd4f7.css",
+    "main.js": "/eyup_sultan_masjid/static/js/main.7fda3adc.js",
     "static/js/787.67168ea1.chunk.js": "/eyup_sultan_masjid/static/js/787.67168ea1.chunk.js",
     "static/media/map.jpeg": "/eyup_sultan_masjid/static/media/map.d0aad44047bc98be708a.jpeg",
     "static/media/mobile_map.png": "/eyup_sultan_masjid/static/media/mobile_map.7c36adc426dcb41b1322.png",
@@ -9,12 +9,12 @@
     "static/media/mosque.jpeg": "/eyup_sultan_masjid/static/media/mosque.dd549b09d4c2a9cd934c.jpeg",
     "static/media/sister_section.jpg": "/eyup_sultan_masjid/static/media/sister_section.37c65d5a79c0f85c3c93.jpg",
     "index.html": "/eyup_sultan_masjid/index.html",
-    "main.332d3d44.css.map": "/eyup_sultan_masjid/static/css/main.332d3d44.css.map",
-    "main.23f9f620.js.map": "/eyup_sultan_masjid/static/js/main.23f9f620.js.map",
+    "main.697bd4f7.css.map": "/eyup_sultan_masjid/static/css/main.697bd4f7.css.map",
+    "main.7fda3adc.js.map": "/eyup_sultan_masjid/static/js/main.7fda3adc.js.map",
     "787.67168ea1.chunk.js.map": "/eyup_sultan_masjid/static/js/787.67168ea1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.332d3d44.css",
-    "static/js/main.23f9f620.js"
+    "static/css/main.697bd4f7.css",
+    "static/js/main.7fda3adc.js"
   ]
 }
